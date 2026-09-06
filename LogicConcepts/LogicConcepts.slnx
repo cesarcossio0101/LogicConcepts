@@ -17,4 +17,8 @@
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" />
   </Folder>
+  <Folder Name="/Taller Herencia/">
+    <Project Path="Backend/Backend.csproj" />
+    <Project Path="Frotend/Frontend.csproj" />
+  </Folder>
 </Solution>
