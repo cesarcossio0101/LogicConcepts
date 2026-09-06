@@ -11,6 +11,9 @@
   <Folder Name="/04/">
     <Project Path="IsMultilpeOfAnother/IsMultilpeOfAnother.csproj" />
   </Folder>
+  <Folder Name="/05/">
+    <Project Path="IsLeapYear/IsLeapYear.csproj" />
+  </Folder>
   <Folder Name="/Shared/">
     <Project Path="Shared/Shared.csproj" />
   </Folder>
