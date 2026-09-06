@@ -20,7 +20,7 @@ public class Parallelogram : Rectangle
     public double H 
     { 
         get => _h; 
-        set => _h = value; 
+        set => _h = ValidateH(value); 
     }
 
     // Public methods
