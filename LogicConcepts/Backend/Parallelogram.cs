@@ -14,7 +14,6 @@ public class Parallelogram : Rectangle
         H = h;
     }
 
-
     // Properties
 
     public double H 

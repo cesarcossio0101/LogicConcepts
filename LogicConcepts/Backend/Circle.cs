@@ -27,7 +27,7 @@ public class Circle : GeometricFigures
     public override double GetArea() => Math.PI * Math.Pow(R, 2);
 
     public override double GetPerimeter() => 2 * Math.PI * R;
-   
+
 
     // Private methods 
 

@@ -11,6 +11,7 @@ public abstract class GeometricFigures
     {
         Name = name;
     }
+
     // Properties
 
     public string Name
@@ -26,7 +27,7 @@ public abstract class GeometricFigures
 
     public override string ToString()
     {
-        return $"{Name} => Area.....: {GetArea():F5} Perimeter: {GetPerimeter():F5}";
+        return $"{Name,-15} => Area.....: {GetArea(),14:N5}     Perimeter: {GetPerimeter(),14:N5}";
     }
 
 }

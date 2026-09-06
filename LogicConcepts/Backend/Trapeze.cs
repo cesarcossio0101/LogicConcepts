@@ -15,13 +15,12 @@ public class Trapeze : Triangle
         D = d;
     }
 
-
     // Properties
 
-    public double D 
-    { 
-        get => _d; 
-        set => _d = value; 
+    public double D
+    {
+        get => _d;
+        set => _d = ValidateD(value);
     }
 
     // Public methods
