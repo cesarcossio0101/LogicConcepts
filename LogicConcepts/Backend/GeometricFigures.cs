@@ -26,7 +26,7 @@ public abstract class GeometricFigures
 
     public override string ToString()
     {
-        return string.Create(CultureInfo.InvariantCulture, $"{Name} => Area.....: {GetArea():F5} Perimeter: {GetPerimeter():F5}");
+        return $"{Name} => Area.....: {GetArea():F5} Perimeter: {GetPerimeter():F5}";
     }
 
 }
